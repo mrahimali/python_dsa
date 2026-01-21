@@ -3,8 +3,10 @@
 
 def removeDuplicates(nums):
     i=0
-    j=0
+    j=1
     n=len(nums)
+    if n==1:
+        return 1
     while j<n:
         if nums[i] != nums[j]:
             i +=1
