@@ -47,3 +47,8 @@ def moveZero(nums):
 nums = [1,12,0,4,0,5,6,7,0,0]
 moveZero(nums)
 print(nums)
+
+
+# TC = O(n)
+# SC = O(1)
+
